@@ -1,0 +1,198 @@
+a {
+  color: #11999E;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+}
+.footer-link{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
+.copy-right{
+    color: #EAF6F6;
+    padding: 20px 0;
+    font-size: .75rem;
+}
+h1 {
+  margin: 50px auto 0px auto;
+  font-size: 5.625rem;
+  /*      1em is  100%font size which is 16 px so 90px is 90/16=5.625*100=562.5%  or 5.625em   this is dynamic as users can change browser font size in browser settings
+     also one thing to note is that em and % font sizes inherit from parent sizesand apply on top so use  root em ie......  rem which doesn't inherit values   */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /*line-height: 2;*/
+}
+
+.who-i-am {}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+.about-me{
+    margin: auto 600px;
+    color: #40514E;
+    font-weight: bold;
+}
+.skill-description{
+    width: 100%;
+    margin: auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  height: auto;
+  width: 250px;
+  position: absolute;
+  top: -40px;
+  right: 150px;
+}
+
+.bottom-cloud {
+  height: auto;
+  width: 250px;
+  position: absolute;
+  bottom: 400px;
+  left: 200px;
+}
+
+.mountain {
+  height: auto;
+  width: 600px;
+}
+
+.profile-image {
+  height: auto;
+  width: 300px;
+}
+
+.tech-image {
+  height: auto;
+  width: 25%;
+  border-radius: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.coding-gif{
+  height: auto;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    font-weight: bold;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }/*
+.cool-dotted-line{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 3%;
+}*/
+.contact-description{
+    font-weight: bold;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.contact-me{
+
+}
+/*.BUTTON_SVG {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    background-color: #66BFBF;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}/*i used this site to achieve  https://cssbuttoncreator.com/ for learning purposes
+
+.BUTTON_SVG:hover {
+    background: #66BFBF;
+    border: solid #66BFBF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+*/
+.contact-button {
+    font-family: 'Montserrat', sans-serif;
+    color: #fcfefe !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 12px 28px;
+    /*-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #3866A3;*/
+    border-radius: 6px;
+    background: #11cdd4;
+    text-decoration: none;
+}/*      Finally this worked flawlessly and simple for me to learn  https://www.cssportal.com/css3-button-generator/    */
+.contact-button:hover {
+    color: #fcfefe !important;
+    background: #468CCF;
+    background: linear-gradient(top,  #30e3cb,  #2bc4ad);
+    background: -ms-linear-gradient(top,  #30e3cb,  #2bc4ad);
+    background: -webkit-gradient(linear, left top, left bottom, from(#30e3cb), to(#2bc4ad));
+    background: -moz-linear-gradient(top,  #30e3cb,  #2bc4ad);
+}
